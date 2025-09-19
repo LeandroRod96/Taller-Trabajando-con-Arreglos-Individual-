@@ -37,11 +37,12 @@ function showList(array) {
 }
 
 document.addEventListener("DOMContentLoaded", (e) => {
-  // Solución: Filtrar solo strings y ordenarlos alfabéticamente
+  
   const stringElements = strangeArray
     .filter(element => typeof element === 'string') // Filtrar solo strings
-    .sort(); // Ordenar alfabéticamente
+    .sort(); 
   
-  // Mostrar el array filtrado y ordenado
+ 
   showList(stringElements);
 });
+
